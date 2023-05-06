@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=validate
-#SBATCH --partition=work
+#SBATCH --partition=RM
 #SBATCH --nodes=4
 #SBATCH --ntasks-per-node=128
 #SBATCH --cpus-per-task=1
